@@ -35,7 +35,7 @@ header {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.7)
     ),
-    url('ExploreIt/bg.jpg');
+    url('../bg.jpg');
   background-size: cover;
   background-position: 15% 0%;
   background-attachment: scroll;
