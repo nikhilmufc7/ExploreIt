@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.content, .banner {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+/* Mobile defaults */
+.content, .banner {
+  width: 100%;
+}
+
+/* Tablet */
+@media only screen and (min-width: 769px) {
+  .content {
+    width: 50%;
+  }
+}
