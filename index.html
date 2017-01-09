@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Explore It</title>
+  <head>
+    <title>Explore It</title>
 	 <meta charset="UTF-8">
   	<meta name="description" content="Use Explore it to get everything you could about a word!">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/lity.min.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
@@ -15,26 +14,26 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
     <script async src="https://use.fontawesome.com/0f63d8ca7c.js"></script>
-    
-    <script async src="javascript/app.js"></script>
+    <script async src="javascript/lity.min.js"></script>
     <script async src="javascript/typed.js"></script>
+    <script async src="javascript/app.js"></script>
   </head>
-
-<body>
- <div id="Fillerspace"></div>
-   <div class="row"></div>
-     <div class="banner">
+  <body>
+    <header>
+      <div id="fillerspace"></div>
+      <div class="row">
+        <div class="banner">
           <h1 id="largescreen" class="tagline"><span class="msg"></span></h1>
           <h1 id="smallscreen" class="tagline">Not sure what that one word really means?</h1>
-  <form id="inputform"></form>
-  <input id="searchfield" type="text" name="searchfield" placeholder="Type in your word and..." autofocus required spellcheck="true">
-            <button id="lookitup">Explore It</button>
+          <form id="inputform">
+            <input id="searchfield" type="text" name="searchfield" placeholder="Type in your word and..." autofocus required spellcheck="true">
+            <button id="lookitup">LOOKiTUP</button>
           </form>
         </div>
       </div>
     </header>
     <main>
-<div class="row">
+      <div class="row">
         <div class="banner" id="gentriex">
           <div class="boxshadow">
             <h2 class="example">Why<span class="logo">LOOKiTUP</span>?<br>Here's an example search for the word “<span id="typedtext">gentrification</span>.”</h2>
@@ -86,22 +85,8 @@
             <h2 class="boxtitle youtubetitle">YouTube <i class="fa fa-youtube-play" aria-hidden="true"></i></h2>
             <div class="results youtube">
             <!-- Beginning of sample data from YouTube API displayed to show user an example search -->
-              <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=XqogaDX48nI?vq=hd1080" data-lity=""><div class="thumbnailWrap">
-              <img class="thumbnail" src="https://i.ytimg.com/vi/XqogaDX48nI/mqdefault.jpg">
-              <p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i>
-               <br>
-              <span class="popup">Play on this page</span>
-                         </p>
-                      </div>
-                    </a>
-                  </td>
-              <td class="tdtext"><a href="https://www.youtube.com/watch?v=XqogaDX48nI" data-lity=""><p class="videotitle">What we don’t understand about gentrification | Stacey Sutton | TEDxNewYork</p>
-              </a>
-              <p class="videochannel">From <a href="https://www.youtube.com/channel/UCsT0YIqwnpJCM-mx7-gSA4Q" target="_blank">TEDx Talks</a></p></td></tr></tbody></table>
-
-              <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=OaHy6ZY6mFU?vq=hd1080" data-lity=""><div class="thumbnailWrap"><img class="thumbnail" src="https://i.ytimg.com/vi/OaHy6ZY6mFU/mqdefault.jpg"><p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i>
-              <br>
-              <span class="popup">Play on this page</span></p></div></a></td><td class="tdtext"><a href="https://www.youtube.com/watch?v=OaHy6ZY6mFU" data-lity=""><p class="videotitle">What is gentrification?</p></a><p class="videochannel">From <a href="https://www.youtube.com/channel/UCk8rDAD1CymvHuW3RYUP92g" target="_blank">ThursdayObserver</a></p></td></tr></tbody></table>
+              <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=XqogaDX48nI?vq=hd1080" data-lity=""><div class="thumbnailWrap"><img class="thumbnail" src="https://i.ytimg.com/vi/XqogaDX48nI/mqdefault.jpg"><p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i><br><span class="popup">Play on this page</span></p></div></a></td><td class="tdtext"><a href="https://www.youtube.com/watch?v=XqogaDX48nI" data-lity=""><p class="videotitle">What we don’t understand about gentrification | Stacey Sutton | TEDxNewYork</p></a><p class="videochannel">From <a href="https://www.youtube.com/channel/UCsT0YIqwnpJCM-mx7-gSA4Q" target="_blank">TEDx Talks</a></p></td></tr></tbody></table>
+              <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=OaHy6ZY6mFU?vq=hd1080" data-lity=""><div class="thumbnailWrap"><img class="thumbnail" src="https://i.ytimg.com/vi/OaHy6ZY6mFU/mqdefault.jpg"><p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i><br><span class="popup">Play on this page</span></p></div></a></td><td class="tdtext"><a href="https://www.youtube.com/watch?v=OaHy6ZY6mFU" data-lity=""><p class="videotitle">What is gentrification?</p></a><p class="videochannel">From <a href="https://www.youtube.com/channel/UCk8rDAD1CymvHuW3RYUP92g" target="_blank">ThursdayObserver</a></p></td></tr></tbody></table>
               <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=5nyDbHi1YQE?vq=hd1080" data-lity=""><div class="thumbnailWrap"><img class="thumbnail" src="https://i.ytimg.com/vi/5nyDbHi1YQE/mqdefault.jpg"><p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i><br><span class="popup">Play on this page</span></p></div></a></td><td class="tdtext"><a href="https://www.youtube.com/watch?v=5nyDbHi1YQE" data-lity=""><p class="videotitle">The Pros And Cons Of Gentrification</p></a><p class="videochannel">From <a href="https://www.youtube.com/channel/UCgRvm1yLFoaQKhmaTqXk9SA" target="_blank">Seeker Daily</a></p></td></tr></tbody></table>
               <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=zwOW-UBV4u0?vq=hd1080" data-lity=""><div class="thumbnailWrap"><img class="thumbnail" src="https://i.ytimg.com/vi/zwOW-UBV4u0/mqdefault.jpg"><p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i><br><span class="popup">Play on this page</span></p></div></a></td><td class="tdtext"><a href="https://www.youtube.com/watch?v=zwOW-UBV4u0" data-lity=""><p class="videotitle">The Carmichael Show - What Is Gentrification? (Episode Highlight)</p></a><p class="videochannel">From <a href="https://www.youtube.com/channel/UCPls_tzGahkP61oJUj9cWkQ" target="_blank">The Carmichael Show</a></p></td></tr></tbody></table>
               <table><tbody><tr><td><a href="https://www.youtube.com/watch?v=F3Mbeb4_bpI?vq=hd1080" data-lity=""><div class="thumbnailWrap"><img class="thumbnail" src="https://i.ytimg.com/vi/F3Mbeb4_bpI/mqdefault.jpg"><p class="play"><i class="fa fa-play-circle" aria-hidden="true"></i><br><span class="popup">Play on this page</span></p></div></a></td><td class="tdtext"><a href="https://www.youtube.com/watch?v=F3Mbeb4_bpI" data-lity=""><p class="videotitle">Gentrification: Help or Harm?</p></a><p class="videochannel">From <a href="https://www.youtube.com/channel/UCu_u-P3cBFO7D-sAjxd_I-w" target="_blank">The Agenda with Steve Paikin</a></p></td></tr></tbody></table>
@@ -124,7 +109,6 @@
           </a>
         </div>
       </div>
-	    <div> &#9400; Nikhil Singh
       <div class="row loadrow">
         <div class="banner">
           <h2 class="boxtitle loadtext"><img src="load.svg" class="loadcircle"> Loading</h2>
@@ -140,3 +124,5 @@
     </footer>
   </body>
 </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status 
