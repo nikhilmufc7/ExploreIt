@@ -14,5 +14,4 @@ Technology
 
 "Lookitup" uses AJAX calls to request and load data asynchronously from public APIs in response to user click events detected by event-handlers. Using jQuery DOM taversal and manipulation, the data is displayed in an organized layout that has been made responsive and mobile-first by CSS media-queries, allowing the page to be usable and equally optimized on devices with small and large screens alike.
 
-
-
+ORIGNINALLY FORKED FROM https://github.com/tswpaik/lookitup TIM PAIK.
