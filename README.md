@@ -1,5 +1,6 @@
 # Explore It
 
+
 Basic useful feature list:
 
  * Uses Wikipedia, Youtube, Longman Dictionary API to get data
@@ -18,3 +19,6 @@ The website is [Explore It](https://nikhilmufc7.github.io/ExploreIt/). Do let me
  * API callbacks
 
 Made with :heart: from nikhilmufc7!
+
+Found here https://nikhilmufc7.github.io/ExploreIt/
+
