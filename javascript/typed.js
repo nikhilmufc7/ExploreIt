@@ -1,4 +1,4 @@
-
+// used for giving preview on the search page
 ! function($) {
 
 	"use strict";
